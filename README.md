@@ -53,7 +53,18 @@ The portfolio includes the following sections:
 
 - **Home**: Welcome message and introduction.
 - **About Me**: Brief bio about Eric Stevens and his background in software engineering.
-- **Projects Section**:
-    - The Projects section highlights notable projects, including the project name, description, and links to view more information.
+- **Projects Section**: The Projects section highlights notable projects, including the project name, description, and links to view more information.
 - **Contact Section**: The Contact section includes an email link for reaching out to me for collaboration or inquiries.
+
+## Deployment
+
+The project is deployed using [Netlify](https://www.netlify.com/).
+
+To deploy:
+1. Create a Netlify account and link the GitHub repository.
+2. Deploy the project using the default React build command.
+3. Set up a custom domain (ericstevensjr.com) through Netlify’s Domain Management.
+
+The live version of the portfolio can be accessed at: [ericstevensjr.com](http://ericstevensjr.com)
+
 
