@@ -1,5 +1,5 @@
-import usaFlag from "../assets/usaFlag.png"
-import flFLag from "../assets/flFlag.png"
+import usaFlag from "../assets/usaFlag.png";
+import flFlag from "../assets/flFlag.png";
 
 function HeroSection() {
   return (
@@ -19,16 +19,16 @@ function HeroSection() {
       </a>
 
       {/* Flags Section */}
-      <div className="flex items-center mt-6">
+      <div className="flex flex-col md:flex-row items-center mt-6">
         <img
           src={usaFlag}
           alt="United States Flag"
-          className="w-48 h-28 mr-4"
+          className="w-48 h-28 mb-4 md:mb-0 md:mr-4"
         />
         <img
-          src={flFLag}
+          src={flFlag}
           alt="Florida State Flag"
-          className="w-46 h-28"
+          className="w-48 h-28"
         />
       </div>
     </section>
