@@ -13,7 +13,7 @@ function HeroSection() {
       />
 
       <h1 className="text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100 transition-colors duration-300">
-        Hello, I'm Eric Stevens
+        Hello, I'm Eric Stevens Jr.
       </h1>
       <p className="text-xl mb-6 text-gray-700 dark:text-gray-300 transition-colors duration-300">
         A United States Army Combat Infantryman turned Software Engineer and Businessman.
