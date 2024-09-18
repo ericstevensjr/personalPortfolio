@@ -13,8 +13,6 @@ This project is a professional personal portfolio built with React and Tailwind 
 - [Features](#features)
 - [Content Sections](#content-sections)
 - [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Setup
 
