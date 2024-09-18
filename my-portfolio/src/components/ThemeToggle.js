@@ -3,16 +3,15 @@ import { useEffect, useState } from 'react';
 import { FaSun, FaMoon } from 'react-icons/fa';
 
 function ThemeToggle() {
-  // Initialize state based on localStorage or system preference
   const [darkMode, setDarkMode] = useState(() => {
     const storedTheme = localStorage.getItem('theme');
     if (storedTheme) {
       return storedTheme === 'dark';
     }
-    return window.matchMedia('(prefers-color-scheme: dark)').matches;
+    // Default to dark mode if no preference is stored
+    return true;
   });
 
-  // Effect to add or remove 'dark' class on root element
   useEffect(() => {
     const root = window.document.documentElement;
     if (darkMode) {
@@ -24,11 +23,13 @@ function ThemeToggle() {
     }
   }, [darkMode]);
 
-  // Optional: Listen to system theme changes
+  // Optional: Listen to system theme changes (if you want to respect system preference)
   useEffect(() => {
     const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
     const handleChange = (e) => {
-      setDarkMode(e.matches);
+      if (!localStorage.getItem('theme')) {
+        setDarkMode(e.matches);
+      }
     };
     mediaQuery.addEventListener('change', handleChange);
     return () => {
@@ -42,7 +43,11 @@ function ThemeToggle() {
       className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 transition"
       aria-label="Toggle Dark Mode"
     >
-      {darkMode ? <FaSun className="text-yellow-500" /> : <FaMoon className="text-blue-500" />}
+      {darkMode ? (
+        <FaSun className="text-yellow-500" />
+      ) : (
+        <FaMoon className="text-blue-500" />
+      )}
     </button>
   );
 }
