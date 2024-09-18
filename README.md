@@ -28,6 +28,7 @@ This project is a professional personal portfolio built with React and Tailwind 
 ## Project Structure
 
 The project is structured as follows:
+```
     /src 
         /components 
             Navbar.js # Navigation bar component 
@@ -37,6 +38,7 @@ The project is structured as follows:
         App.js # Main app component 
         index.js # Entry point 
         index.css # Tailwind CSS styling
+```
 
 ### Components
 
