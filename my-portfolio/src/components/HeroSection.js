@@ -11,7 +11,7 @@ function HeroSection() {
         <a
           href="#contact"
           className="px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700
-                     dark:bg-blue-500 dark:hover:bg-blue-600 transition-colors duration-300"
+                     dark:text-gray-300 dark:hover:bg-blue-600 transition-colors duration-300"
         >
           Get in Touch
         </a>

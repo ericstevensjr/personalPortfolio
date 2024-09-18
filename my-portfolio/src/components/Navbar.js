@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <nav className="bg-gray-800 p-4 fixed w-full z-10 dark:bg-gray-900 transition">
       <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-white text-2xl font-bold">Eric Stevens</h1>
+        <h1 className="text-white text-2xl font-bold">Eric Stevens Jr.</h1>
         <div className="flex items-center space-x-6">
           <ul className="flex space-x-6">
             <li>
