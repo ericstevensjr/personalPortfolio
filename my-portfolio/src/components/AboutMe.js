@@ -1,18 +1,14 @@
 // src/components/AboutMe.js
+
 function AboutMe() {
     return (
-      <section
-        id="about"
-        className="my-16"
-      >
-        <h2
-          className="text-3xl font-bold mb-6 text-gray-900 dark:text-gray-100 transition-colors duration-300 text-center"
-        >
+      <section id="about" className="my-16">
+        <h2 className="text-3xl font-bold mb-6 text-center">
           About Me
         </h2>
-  
-        <p className="text-center text-lg leading-relaxed text-gray-700 dark:text-gray-300 transition-colors duration-300">
-        I am a dedicated software engineer with experience in building scalable web applications...
+        <div className="flex flex-col items-center">
+          <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+            I am a dedicated software engineer with experience in building scalable web applications...
 
 Lorem ipsum odor amet, consectetuer adipiscing elit. Faucibus pretium sagittis etiam, ut vestibulum adipiscing aptent. Taciti semper proin rhoncus ornare curabitur ullamcorper auctor natoque. Amet lacinia dui; eleifend efficitur sem commodo. Sed suscipit sit vulputate elementum commodo ligula non. Imperdiet potenti vitae finibus aenean class montes. Porta sed potenti duis dui ut aenean feugiat. Tincidunt ligula ornare rhoncus vehicula mattis rutrum fringilla tempus. Magna cras rutrum morbi tortor feugiat.
 
@@ -25,6 +21,7 @@ Blandit fames sagittis elementum pretium iaculis ante in libero. Netus dictum co
 Ex adipiscing metus consectetur per lobortis mattis. Molestie consequat natoque nisl eleifend montes. Purus dolor bibendum odio sollicitudin elementum suspendisse sapien. Maecenas ex arcu penatibus, eget libero magna. Dapibus et ullamcorper molestie ultrices tristique convallis eros mi. Tempus justo condimentum neque senectus donec odio integer quis. Lorem a scelerisque sollicitudin phasellus ornare et habitasse convallis.
 
         </p>
+        </div>
       </section>
     );
   }
