@@ -14,7 +14,7 @@ function Navbar() {
           <img
             src={cib}
             alt="Combat Infantry Badge"
-            className="w-40 md:w-40 h-auto mt-1"
+            className="w-24 md:w-40 h-auto mt-1"
           />
         </div>
 

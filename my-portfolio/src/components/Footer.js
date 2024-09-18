@@ -18,23 +18,23 @@ function Footer() {
         {/* Center: Social Media Icons and Footer Text */}
         <div className="flex flex-col items-center text-center">
           {/* Social Media Icons */}
-          <div className="flex space-x-4 mb-4">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+          <div className="flex space-x-4 mb-4 md:mb-2">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <FaFacebookF className="h-6 w-6 text-white hover:text-gray-300 transition-colors duration-200" />
             </a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
               <FaTwitter className="h-6 w-6 text-white hover:text-gray-300 transition-colors duration-200" />
             </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <FaInstagram className="h-6 w-6 text-white hover:text-gray-300 transition-colors duration-200" />
             </a>
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <FaLinkedinIn className="h-6 w-6 text-white hover:text-gray-300 transition-colors duration-200" />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <FaGithub className="h-6 w-6 text-white hover:text-gray-300 transition-colors duration-200" />
             </a>
-            <a href="https://www.twitch.tv" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.twitch.tv" target="_blank" rel="noopener noreferrer" aria-label="Twitch">
               <FaTwitch className="h-6 w-6 text-white hover:text-gray-300 transition-colors duration-200" />
             </a>
           </div>
