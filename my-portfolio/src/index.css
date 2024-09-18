@@ -29,3 +29,7 @@ a {
 .dark a {
   @apply text-blue-400 hover:text-blue-600;
 }
+
+.non-editable-element {
+  cursor: default; /* or remove this property */
+}

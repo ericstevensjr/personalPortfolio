@@ -12,7 +12,6 @@ function App() {
       <Navbar />
       <main className="pt-24">
         <div className="container mx-auto px-4 md:px-8">
-          {/* Content starts here */}
           <HeroSection />
           <AboutMe />
           <Projects />
