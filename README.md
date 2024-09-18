@@ -46,3 +46,10 @@ The project is structured as follows:
 - `Navbar`: The navigation bar component.
 - `Footer`: The footer displayed on all pages.
 - `Home`: The landing page.
+
+## Content Sections
+
+The portfolio includes the following sections:
+
+- **Home**: Welcome message and introduction.
+- **About Me**: Brief bio about Eric Stevens and his background in software engineering.
