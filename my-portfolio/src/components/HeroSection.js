@@ -6,7 +6,7 @@ function HeroSection() {
           Hi, I'm Eric Stevens
         </h1>
         <p className="text-xl mb-6 text-gray-700 dark:text-gray-300 transition-colors duration-300">
-          A Software Engineer specializing in custom business software solutions.
+          A United States Army Combat Infantryman turned Software Engineer and Businessman.
         </p>
         <a
           href="#contact"

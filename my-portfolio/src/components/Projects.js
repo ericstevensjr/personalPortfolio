@@ -4,7 +4,7 @@ import projectOneCover from "../assets/pOneCover.png"
 function Projects() {
   const projectList = [
     {
-      name: 'Eric Stevens Portfolio',
+      name: 'Eric Stevens Jr.\'s Portfolio',
       description: 'This is my personal portfolio website built using React and Tailwind CSS. It showcases my skills, experience, and personal projects.',
       technologies: ['React', 'Tailwind CSS', 'Netlify'],
       image: projectOneCover, // You can add a relevant image if you have one
