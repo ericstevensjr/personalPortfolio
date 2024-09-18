@@ -53,6 +53,7 @@ The portfolio includes the following sections:
 
 - **Home**: Welcome message and introduction.
 - **About Me**: Brief bio about Eric Stevens and his background in software engineering.
-## Projects Section
-- The Projects section highlights notable projects, including the project name, description, and links to view more information.
+- **Projects Section**:
+    - The Projects section highlights notable projects, including the project name, description, and links to view more information.
+- **Contact Section**: The Contact section includes an email link for reaching out to me for collaboration or inquiries.
 

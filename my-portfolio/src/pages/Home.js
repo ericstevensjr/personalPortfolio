@@ -44,6 +44,21 @@ function Home() {
           </div>
         </div>
       </section>
+
+      <section className="my-8">
+
+        <h3 className="text-2xl font-bold mb-4">Contact</h3>
+
+        <p className="mb-4">
+          If you're interested in collaborating or have any questions, feel free to reach out to me at:
+        </p>
+
+        <p className="text-blue-500">
+          <a href="mailto:ericstevensjr@outlook.com">ericstevensjr@outlook.com</a>
+        </p>
+
+      </section>
+
     </div>
   );
 }
