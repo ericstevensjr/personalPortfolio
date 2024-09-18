@@ -8,7 +8,7 @@ function HeroSection() {
       {/* Add your photo here */}
       <img
         src={mugshot}
-        alt="A Photo of Eric Stevens Jr."
+        alt="A photo of Eric Stevens Jr." // Ensure this alt text is meaningful
         className="w-72 h-auto mb-6 border-4 border-gray-300 shadow-lg" // No rounding, subtle border and shadow
       />
 
@@ -30,12 +30,12 @@ function HeroSection() {
       <div className="flex flex-col md:flex-row items-center mt-6">
         <img
           src={usaFlag}
-          alt="United States Flag"
+          alt="United States Flag" // This is fine as it describes the content
           className="w-48 h-28 mb-4 md:mb-0 md:mr-4"
         />
         <img
           src={flFlag}
-          alt="Florida State Flag"
+          alt="Florida State Flag" // Ensure this describes the content properly
           className="w-48 h-28"
         />
       </div>
