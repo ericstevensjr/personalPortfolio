@@ -1,17 +1,31 @@
+/* src/index.css */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+/* Import custom fonts if any */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+/* Apply base styles to the body */
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  @apply bg-white text-gray-900 font-sans transition-colors duration-300;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Dark mode styles */
+.dark body {
+  @apply bg-gray-900 text-gray-100;
+}
+
+/* Styling for headings */
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+}
+
+/* Styling for links */
+a {
+  @apply text-blue-600 hover:text-blue-800 transition-colors duration-300;
+}
+
+.dark a {
+  @apply text-blue-400 hover:text-blue-600;
 }
