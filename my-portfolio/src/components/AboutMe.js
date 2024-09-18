@@ -7,7 +7,7 @@ function AboutMe() {
           About Me
         </h2>
         <div className="flex flex-col items-center">
-          <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-300">
+          <p className="text-lg text-center leading-relaxed text-gray-700 dark:text-gray-300">
             I am a dedicated software engineer with experience in building scalable web applications...
 
 Lorem ipsum odor amet, consectetuer adipiscing elit. Faucibus pretium sagittis etiam, ut vestibulum adipiscing aptent. Taciti semper proin rhoncus ornare curabitur ullamcorper auctor natoque. Amet lacinia dui; eleifend efficitur sem commodo. Sed suscipit sit vulputate elementum commodo ligula non. Imperdiet potenti vitae finibus aenean class montes. Porta sed potenti duis dui ut aenean feugiat. Tincidunt ligula ornare rhoncus vehicula mattis rutrum fringilla tempus. Magna cras rutrum morbi tortor feugiat.
