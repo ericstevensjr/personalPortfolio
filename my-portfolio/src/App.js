@@ -1,16 +1,27 @@
+// App.js
 import Navbar from './components/Navbar';
+import HeroSection from './components/HeroSection';
+import AboutMe from './components/AboutMe';
+import Projects from './components/Projects';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
-import Home from './pages/Home';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar />
-      <Home />
+      <main className="pt-24">
+        <div className="container mx-auto px-4 md:px-8">
+          {/* Content starts here */}
+          <HeroSection />
+          <AboutMe />
+          <Projects />
+          <Contact />
+        </div>
+      </main>
       <Footer />
     </div>
   );
 }
 
 export default App;
-

@@ -4,8 +4,8 @@ import cib from '../assets/cib.png';
 
 function Navbar() {
   return (
-    <nav className="bg-gray-800 p-4 fixed w-full z-10 dark:bg-gray-900 transition">
-      <div className="container mx-auto flex justify-between items-center">
+    <nav className="bg-gray-800 py-2 fixed w-full z-10 dark:bg-gray-900 transition-all duration-300">
+      <div className="container mx-auto flex justify-between items-center px-4 md:px-8">
         {/* Name and Badge */}
         <div className="flex flex-col items-center">
           <h1 className="text-white text-2xl font-bold">
@@ -18,8 +18,8 @@ function Navbar() {
           />
         </div>
         {/* Navigation Links and Theme Toggle */}
-        <div className="flex items-center space-x-6">
-          <ul className="flex space-x-6">
+        <div className="flex items-center space-x-4">
+          <ul className="flex space-x-4">
             <li>
               <a
                 href="#about"
