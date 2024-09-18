@@ -17,6 +17,33 @@ function Home() {
         </p>
       
       </section>
+
+      <section className="my-8">
+
+        <h3 className="text-2xl font-bold mb-4">Projects</h3>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          
+          <div className="p-4 border border-gray-300 rounded">
+            <h4 className="text-xl font-bold mb-2">Project Name 1</h4>
+            
+            <p>A brief description of the project goes here. You can describe its purpose, the technologies used, and what makes it unique.</p>
+            
+            <a href="#" className="text-blue-500">View Project</a>
+         
+          </div>
+
+          <div className="p-4 border border-gray-300 rounded">
+            
+            <h4 className="text-xl font-bold mb-2">Project Name 2</h4>
+            
+            <p>A brief description of the project goes here. You can describe its purpose, the technologies used, and what makes it unique.</p>
+            
+            <a href="#" className="text-blue-500">View Project</a>
+          
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
