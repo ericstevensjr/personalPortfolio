@@ -8,7 +8,7 @@ function HeroSection() {
       {/* Add your photo here */}
       <img
         src={mugshot}
-        alt="A photo of Eric Stevens Jr." // Ensure this alt text is meaningful
+        alt="Eric Stevens Jr." // Ensure this alt text is meaningful
         className="w-72 h-auto mb-6 border-4 border-gray-300 shadow-lg" // No rounding, subtle border and shadow
       />
 
