@@ -35,6 +35,7 @@ The project is structured as follows:
             Footer.js # Footer component 
         /pages 
             Home.js # Home page of the portfolio 
+        
         App.js # Main app component 
         index.js # Entry point 
         index.css # Tailwind CSS styling
