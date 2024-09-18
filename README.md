@@ -23,3 +23,23 @@ This project is a professional personal portfolio built with React and Tailwind 
         Install Tailwind CSS and its dependencies:
             npm install -D tailwindcss postcss autoprefixer
             npx tailwindcss init
+
+
+## Project Structure
+
+The project is structured as follows:
+    /src 
+        /components 
+            Navbar.js # Navigation bar component 
+            Footer.js # Footer component 
+        /pages 
+            Home.js # Home page of the portfolio 
+        App.js # Main app component 
+        index.js # Entry point 
+        index.css # Tailwind CSS styling
+
+### Components
+
+- `Navbar`: The navigation bar component.
+- `Footer`: The footer displayed on all pages.
+- `Home`: The landing page.
