@@ -1,7 +1,3 @@
-Certainly! Here's the updated README in markdown format for you to copy:
-
----
-
 # Eric Stevens' Portfolio
 
 This project is a professional personal portfolio built with React and Tailwind CSS, following industry-standard best practices.
