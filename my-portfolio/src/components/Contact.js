@@ -2,8 +2,8 @@
 function Contact() {
     return (
       <section id="contact" className="my-16">
-        <h2 className="text-3xl font-bold mb-6">Contact</h2>
-        <p className="mb-6">
+        <h2 className="text-3xl font-bold mb-6 text-center">Contact</h2>
+        <p className="mb-6 text-center">
           I'm open to opportunities and collaborations. Feel free to reach out!
         </p>
         <form className="max-w-md mx-auto">
