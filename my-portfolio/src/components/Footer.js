@@ -19,22 +19,22 @@ function Footer() {
         <div className="flex flex-col items-center text-center">
           {/* Social Media Icons */}
           <div className="flex space-x-4 mb-4 md:mb-2">
-            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+            <a href="https://www.facebook.com/profile.php?id=100000032112385" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
               <FaFacebookF className="h-6 w-6 text-white hover:text-gray-300 transition-colors duration-200" />
             </a>
-            <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+            <a href="https://x.com/ericstevensjr" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
               <FaTwitter className="h-6 w-6 text-white hover:text-gray-300 transition-colors duration-200" />
             </a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+            <a href="https://www.instagram.com/ericstevens.jr/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
               <FaInstagram className="h-6 w-6 text-white hover:text-gray-300 transition-colors duration-200" />
             </a>
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/in/ericstevensjr/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
               <FaLinkedinIn className="h-6 w-6 text-white hover:text-gray-300 transition-colors duration-200" />
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <a href="https://github.com/ericstevensjr" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
               <FaGithub className="h-6 w-6 text-white hover:text-gray-300 transition-colors duration-200" />
             </a>
-            <a href="https://www.twitch.tv" target="_blank" rel="noopener noreferrer" aria-label="Twitch">
+            <a href="https://www.twitch.tv/ericstevensjr" target="_blank" rel="noopener noreferrer" aria-label="Twitch">
               <FaTwitch className="h-6 w-6 text-white hover:text-gray-300 transition-colors duration-200" />
             </a>
           </div>
