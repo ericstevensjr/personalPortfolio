@@ -11,8 +11,8 @@ function HeroSection() {
       <img
         src={mugshot}
         alt="Eric Stevens Jr." // Ensure this alt text is meaningful
-        className="w-72 h-auto mb-6 border-4 border-gray-300 shadow-lg" // No rounding, subtle border and shadow
-      />
+        className="w-72 h-auto mb-6 border-4 border-gray-300 shadow-lg rounded-full" // Added "rounded-full" for a circular shape
+        />
 
       <h1 className="text-5xl font-bold mb-4 text-gray-900 dark:text-gray-100 transition-colors duration-300">
         Hello, I'm Eric Stevens Jr.
@@ -38,13 +38,13 @@ function HeroSection() {
         <img
           src={usaFlag}
           alt="United States Flag" // This is fine as it describes the content
-          className="w-48 h-28 mb-4 md:mb-0 md:mr-4"
-        />
+          className="w-48 h-28 mb-4 md:mb-0 md:mr-4 rounded-md" // Added "rounded-md" for subtle rounding
+          />
         <img
           src={flFlag}
           alt="Florida State Flag" // Ensure this describes the content properly
-          className="w-48 h-28"
-        />
+          className="w-48 h-28 rounded-md" // Added "rounded-md" for subtle rounding
+          />
       </div>
     </section>
   );
