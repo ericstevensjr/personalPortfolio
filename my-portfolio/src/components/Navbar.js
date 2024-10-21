@@ -40,13 +40,20 @@ function Navbar() {
 
         {/* Sidebar Navigation for Mobile */}
         {isOpen && (
-          <div className="fixed top-0 right-0 w-3/4 h-full bg-gray-800 p-8 flex flex-col items-start z-20 md:hidden">
-            <button onClick={toggleMenu} className="text-white text-2xl mb-8">
+          <div className="fixed top-0 right-0 w-auto max-w-xs bg-gray-800 p-4 pr-8 flex flex-col items-start z-20 md:hidden shadow-lg">
+            <button onClick={toggleMenu} className="text-white text-2xl mb-4">
               <FaTimes />
             </button>
-            <ul className="space-y-6">
+            <ul className="space-y-4">
               <li>
-                <a href="/" onClick={() => { scrollToTop(); toggleMenu(); }} className="text-gray-300 hover:text-white transition cursor-pointer">
+                <a
+                  href="/"
+                  onClick={() => {
+                    scrollToTop();
+                    toggleMenu();
+                  }}
+                  className="text-gray-300 hover:text-white transition cursor-pointer"
+                >
                   Home
                 </a>
               </li>
