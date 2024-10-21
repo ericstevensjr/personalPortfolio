@@ -19,20 +19,21 @@ function Navbar() {
         </div>
 
         {/* Navigation Links and Theme Toggle */}
-        <div className="flex items-center space-x-4 mt-4 md:mt-0">
-          <ul className="flex space-x-4">
+        <div className="flex flex-col md:flex-row items-center space-y-2 md:space-y-0 md:space-x-4 mt-4 md:mt-0">
+          <ul className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4">
             <li>
-              <a
-                href="/"
+              <HashLink
+                to="/"
                 className="text-gray-300 hover:text-white transition"
               >
                 Home
-              </a>
+              </HashLink>
             </li>
             <li>
               <HashLink
                 to="/#about"
                 smooth
+                scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}
                 className="text-gray-300 hover:text-white transition"
               >
                 About
@@ -42,6 +43,7 @@ function Navbar() {
               <HashLink
                 to="/#projects"
                 smooth
+                scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}
                 className="text-gray-300 hover:text-white transition"
               >
                 Projects
@@ -67,6 +69,7 @@ function Navbar() {
               <HashLink
                 to="/#contact"
                 smooth
+                scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}
                 className="text-gray-300 hover:text-white transition"
               >
                 Contact
