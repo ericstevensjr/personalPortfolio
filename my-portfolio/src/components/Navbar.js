@@ -20,9 +20,9 @@ function Navbar() {
       <div className="container mx-auto px-4 md:px-8 flex flex-row justify-between items-center">
         {/* Name and Badge */}
         <div className="flex flex-col items-center">
-          <a onClick={scrollToTop} className="text-white text-3xl font-bold md:text-4xl hover:text-gray-300 transition cursor-pointer">
-            Eric Stevens Jr.
-          </a>
+        <a href="#" onClick={scrollToTop} className="text-white text-3xl font-bold md:text-4xl hover:text-gray-300 transition cursor-pointer">
+          Eric Stevens Jr.
+        </a>
           <img
             src={cib}
             alt="Combat Infantry Badge"
@@ -45,15 +45,9 @@ function Navbar() {
             </button>
             <ul className="space-y-6">
               <li>
-                <a
-                  onClick={() => {
-                    scrollToTop();
-                    toggleMenu();
-                  }}
-                  className="text-gray-300 hover:text-white transition cursor-pointer"
-                >
-                  Home
-                </a>
+              <a href="#" onClick={scrollToTop} className="text-gray-300 hover:text-white transition cursor-pointer">
+                Home
+              </a>
               </li>
               <li>
                 <HashLink
