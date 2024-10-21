@@ -33,6 +33,13 @@ function HeroSection() {
       >
         Get in Touch
       </a>
+      <a
+        href="/blog"
+        className="mt-4 px-6 py-3 bg-blue-600 text-white rounded-full hover:bg-blue-700
+                  dark:text-gray-300 dark:hover:bg-blue-600 transition-colors duration-300"
+      >
+        Check Out My Blog
+      </a>
 
       {/* Flags Section */}
       <div className="flex flex-col md:flex-row items-center mt-6">
