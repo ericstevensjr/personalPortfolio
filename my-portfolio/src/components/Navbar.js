@@ -1,4 +1,4 @@
-// Navbar.js
+import { HashLink } from 'react-router-hash-link';
 import ThemeToggle from './ThemeToggle';
 import cib from '../assets/cib.png';
 
@@ -8,9 +8,9 @@ function Navbar() {
       <div className="container mx-auto px-4 md:px-8 flex flex-col md:flex-row justify-between items-center">
         {/* Name and Badge always stacked vertically */}
         <div className="flex flex-col items-center">
-          <h1 className="text-white text-3xl font-bold md:text-4xl">
+          <HashLink to="/" className="text-white text-3xl font-bold md:text-4xl hover:text-gray-300 transition">
             Eric Stevens Jr.
-          </h1>
+          </HashLink>
           <img
             src={cib}
             alt="Combat Infantry Badge"
@@ -23,43 +23,54 @@ function Navbar() {
           <ul className="flex space-x-4">
             <li>
               <a
-                href="#about"
+                href="/"
+                className="text-gray-300 hover:text-white transition"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <HashLink
+                to="/#about"
+                smooth
                 className="text-gray-300 hover:text-white transition"
               >
                 About
-              </a>
+              </HashLink>
             </li>
             <li>
-              <a
-                href="#projects"
+              <HashLink
+                to="/#projects"
+                smooth
                 className="text-gray-300 hover:text-white transition"
               >
                 Projects
-              </a>
+              </HashLink>
             </li>
             <li>
-              <a
-                href="/blog"
+              <HashLink
+                to="/blog"
                 className="text-gray-300 hover:text-white transition"
               >
                 Blog
-              </a>
+              </HashLink>
             </li>
             <li>
-              <a
-                href="/affiliations"
+              <HashLink
+                to="/affiliations"
                 className="text-gray-300 hover:text-white transition"
               >
                 Affiliations
-              </a>
+              </HashLink>
             </li>
             <li>
-              <a
-                href="#contact"
+              <HashLink
+                to="/#contact"
+                smooth
                 className="text-gray-300 hover:text-white transition"
               >
                 Contact
-              </a>
+              </HashLink>
             </li>
           </ul>
           <ThemeToggle />

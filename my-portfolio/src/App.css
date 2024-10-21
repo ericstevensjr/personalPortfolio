@@ -44,3 +44,7 @@ html, body, * {
   user-select: none !important; /* Standard */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
