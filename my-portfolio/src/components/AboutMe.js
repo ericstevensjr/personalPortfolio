@@ -2,7 +2,7 @@ function AboutMe() {
   return (
     <section id="about" className="my-16 scroll-mt-28">
       <h2 className="text-center text-3xl font-bold mb-6 text-center">
-        About Me
+        About Me (Test)
       </h2>
       <div className="flex flex-col items-center">
         <p className="text-center text-lg leading-relaxed text-gray-700 dark:text-gray-300">
