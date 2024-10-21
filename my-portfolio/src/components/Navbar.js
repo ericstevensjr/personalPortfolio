@@ -39,6 +39,14 @@ function Navbar() {
             </li>
             <li>
               <a
+                href="/blog"
+                className="text-gray-300 hover:text-white transition"
+              >
+                Blog
+              </a>
+            </li>
+            <li>
+              <a
                 href="#contact"
                 className="text-gray-300 hover:text-white transition"
               >

@@ -1,6 +1,8 @@
 import usaFlag from "../assets/usaFlag.png";
 import flFlag from "../assets/flFlag.png";
 import mugshot from "../assets/beautiful.JPG"; // Add your photo here
+import { Link } from 'react-router-dom';
+
 
 function HeroSection() {
   return (
@@ -25,6 +27,11 @@ function HeroSection() {
       >
         Get in Touch
       </a>
+
+      <Link to="/blog" className="mt-6 px-6 py-3 bg-green-600 text-white rounded-full hover:bg-green-700 dark:text-gray-300 dark:hover:bg-green-600 transition-colors duration-300">
+        Visit My Blog
+      </Link>
+
 
       {/* Flags Section */}
       <div className="flex flex-col md:flex-row items-center mt-6">

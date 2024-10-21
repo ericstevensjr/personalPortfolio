@@ -41,7 +41,7 @@ This project is a professional personal portfolio built with React and Tailwind 
 3. **Start the Development Server**:
 
    ```bash
-   npm start
+   npm run
    ```
 
    The application will start on `http://localhost:3000`.
