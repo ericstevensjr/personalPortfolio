@@ -47,6 +47,14 @@ function Navbar() {
             </li>
             <li>
               <a
+                href="/affiliations"
+                className="text-gray-300 hover:text-white transition"
+              >
+                Affiliations
+              </a>
+            </li>
+            <li>
+              <a
                 href="#contact"
                 className="text-gray-300 hover:text-white transition"
               >

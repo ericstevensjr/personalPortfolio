@@ -8,6 +8,7 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Blog from './components/Blog';
+import Affiliations from './components/Affiliations';
 import './App.css';
 
 
@@ -28,6 +29,7 @@ function App() {
                 </>
               } />
               <Route path="/blog" element={<Blog />} />
+              <Route path="/affiliations" element={<Affiliations />}  />
               <Route path="/contact" element={<Contact />} />
             </Routes>
           </div>
