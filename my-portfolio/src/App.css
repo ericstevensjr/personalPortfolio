@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+html, body, * {
+  -webkit-user-select: none !important; /* Safari */
+  -moz-user-select: none !important; /* Firefox */
+  -ms-user-select: none !important; /* Internet Explorer/Edge */
+  user-select: none !important; /* Standard */
+}
+
