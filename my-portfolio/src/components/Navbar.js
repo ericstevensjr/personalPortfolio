@@ -15,6 +15,15 @@ function Navbar() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const navLinks = [
+    { name: "Home", path: "/", type: "a" },
+    { name: "About", path: "/#about", type: "hash" },
+    { name: "Projects", path: "/#projects", type: "hash" },
+    { name: "Blog", path: "/#blog", type: "a" },
+    { name: "Affiliations", path: "/affiliations", type: "a" },
+    { name: "Contact", path: "/#contact", type: "hash"}
+  ];
+
   return (
     <nav className="bg-gradient-to-r from-blue-900 to-gray-800 py-4 fixed w-full z-10 dark:bg-gradient-to-r dark:from-gray-800 dark:to-gray-900 transition-all duration-300 shadow-md">
       <div className="container mx-auto px-4 md:px-8 flex justify-between items-center">
@@ -52,116 +61,38 @@ function Navbar() {
             <FaTimes />
           </button>
           <ul className="space-y-6">
-            <li>
-              <a
-                href="/"
-                onClick={() => {
-                  scrollToTop();
-                  toggleMenu();
-                }}
-                className="text-gray-300 hover:text-white transition duration-300 cursor-pointer"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <HashLink
-                to="/#about"
-                smooth
-                scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}
-                className="text-gray-300 hover:text-white transition duration-300"
-                onClick={toggleMenu}
-              >
-                About
-              </HashLink>
-            </li>
-            <li>
-              <HashLink
-                to="/#projects"
-                smooth
-                scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}
-                className="text-gray-300 hover:text-white transition duration-300"
-                onClick={toggleMenu}
-              >
-                Projects
-              </HashLink>
-            </li>
-            <li>
-              <HashLink to="/blog" className="text-gray-300 hover:text-white transition duration-300" onClick={toggleMenu}>
-                Blog
-              </HashLink>
-            </li>
-            <li>
-              <HashLink to="/affiliations" className="text-gray-300 hover:text-white transition duration-300" onClick={toggleMenu}>
-                Affiliations
-              </HashLink>
-            </li>
-            <li>
-              <HashLink
-                to="/#contact"
-                smooth
-                scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}
-                className="text-gray-300 hover:text-white transition duration-300"
-                onClick={toggleMenu}
-              >
-                Contact
-              </HashLink>
-            </li>
+            {navLinks.map((link, index) => (
+              <li key={index}>
+                {link.type === "hash" ? (
+                  <HashLink to={link.path} smooth className="text-gray-300 hover:text-white transition duration-300" onClick={toggleMenu}>
+                    {link.name}
+                  </HashLink>
+                ) : (
+                  <a href={link.path} className="text-gray-300 hover:text-white transition duration-300" onClick={toggleMenu}>
+                    {link.name}
+                  </a>
+                )}
+              </li>
+            ))}
           </ul>
         </div>
 
         {/* Navigation Links for Desktop */}
         <div className="hidden md:flex items-center space-x-8">
           <ul className="flex space-x-6 text-lg">
-            <li>
-              <a
-                href="/"
-                onClick={scrollToTop}
-                className="text-gray-200 hover:text-white transition duration-300 cursor-pointer"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <HashLink
-                to="/#about"
-                smooth
-                scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}
-                className="text-gray-200 hover:text-white transition duration-300"
-              >
-                About
-              </HashLink>
-            </li>
-            <li>
-              <HashLink
-                to="/#projects"
-                smooth
-                scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}
-                className="text-gray-200 hover:text-white transition duration-300"
-              >
-                Projects
-              </HashLink>
-            </li>
-            <li>
-              <HashLink to="/blog" className="text-gray-200 hover:text-white transition duration-300">
-                Blog
-              </HashLink>
-            </li>
-            <li>
-              <HashLink to="/affiliations" className="text-gray-200 hover:text-white transition duration-300">
-                Affiliations
-              </HashLink>
-            </li>
-            <li>
-              <HashLink
-                to="/#contact"
-                smooth
-                scroll={(el) => el.scrollIntoView({ behavior: 'smooth', block: 'start' })}
-                className="text-gray-200 hover:text-white transition duration-300"
-              >
-                Contact
-              </HashLink>
-            </li>
+            {navLinks.map((link, index) => (
+              <li key={index}>
+                {link.type === "hash" ? (
+                  <HashLink to={link.path} smooth className="text-gray-200 hover:text-white transition duration-300">
+                    {link.name}
+                  </HashLink>
+                ) : (
+                  <a href={link.path} className="text-gray-200 hover:text-white transition duration-300">
+                    {link.name}
+                  </a>
+                )}
+              </li>
+            ))}
           </ul>
           <ThemeToggle />
         </div>
