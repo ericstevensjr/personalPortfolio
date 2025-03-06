@@ -1,41 +1,10 @@
 // ThemeToggle.js
-import { useEffect, useState } from 'react';
+import { useContext } from "react";
+import { ThemeContext } from "../context/ThemeContext"
 import { FaSun, FaMoon } from 'react-icons/fa';
 
 function ThemeToggle() {
-  const [darkMode, setDarkMode] = useState(() => {
-    const storedTheme = localStorage.getItem('theme');
-    if (storedTheme) {
-      return storedTheme === 'dark';
-    }
-    // Default to dark mode if no preference is stored
-    return true;
-  });
-
-  useEffect(() => {
-    const root = window.document.documentElement;
-    if (darkMode) {
-      root.classList.add('dark');
-      localStorage.setItem('theme', 'dark');
-    } else {
-      root.classList.remove('dark');
-      localStorage.setItem('theme', 'light');
-    }
-  }, [darkMode]);
-
-  // Optional: Listen to system theme changes (if you want to respect system preference)
-  useEffect(() => {
-    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-    const handleChange = (e) => {
-      if (!localStorage.getItem('theme')) {
-        setDarkMode(e.matches);
-      }
-    };
-    mediaQuery.addEventListener('change', handleChange);
-    return () => {
-      mediaQuery.removeEventListener('change', handleChange);
-    };
-  }, []);
+  const { darkMode, setDarkMode } = useContext(ThemeContext);
 
   return (
     <button

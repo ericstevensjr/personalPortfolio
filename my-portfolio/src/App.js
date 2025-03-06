@@ -10,33 +10,35 @@ import Footer from './components/Footer';
 import Blog from './components/Blog';
 import Affiliations from './components/Affiliations';
 import './App.css';
-
+import { ThemeProvider } from "./context/ThemeContext";
 
 function App() {
   return (
-    <Router>
-      <div className="App">
-        <Navbar />
-        <main className="pt-24">
-          <div className="container mx-auto px-4 md:px-8">
-            <Routes>
-              <Route path="/" element={
-                <>
-                  <HeroSection />
-                  <AboutMe />
-                  <Projects />
-                  <Contact />
-                </>
-              } />
-              <Route path="/blog" element={<Blog />} />
-              <Route path="/affiliations" element={<Affiliations />}  />
-              <Route path="/contact" element={<Contact />} />
-            </Routes>
-          </div>
-        </main>
-        <Footer />
-      </div>
-    </Router>
+    <ThemeProvider>
+      <Router>
+        <div className="App">
+          <Navbar />
+          <main className="pt-24">
+            <div className="container mx-auto px-4 md:px-8">
+              <Routes>
+                <Route path="/" element={
+                  <>
+                    <HeroSection />
+                    <AboutMe />
+                    <Projects />
+                    <Contact />
+                  </>
+                } />
+                <Route path="/blog" element={<Blog />} />
+                <Route path="/affiliations" element={<Affiliations />}  />
+                <Route path="/contact" element={<Contact />} />
+              </Routes>
+            </div>
+          </main>
+          <Footer />
+        </div>
+      </Router>
+    </ThemeProvider>
   );
 }
 
