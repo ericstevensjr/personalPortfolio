@@ -19,7 +19,7 @@ function Navbar() {
     { name: "Home", path: "/", type: "a" },
     { name: "About", path: "/#about", type: "hash" },
     { name: "Projects", path: "/#projects", type: "hash" },
-    { name: "Blog", path: "/#blog", type: "a" },
+    { name: "Blog", path: "/#blog", type: "hash" },
     { name: "Affiliations", path: "/affiliations", type: "a" },
     { name: "Contact", path: "/#contact", type: "hash"}
   ];
