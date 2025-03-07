@@ -12,38 +12,75 @@ import Affiliations from './components/Affiliations';
 import './App.css';
 import { ThemeProvider } from "./context/ThemeContext";
 import SEO from "./components/SEO";
+import ErrorBoundary from "./components/ErrorBoundary";
 
 function App() {
   return (
     <ThemeProvider>
       <Router>
-        <SEO
-          title="Eric Stevens Jr. | Portfolio"
-          description="Eric Stevens Jr. is a U.S. Army Combat Infantryman turned Software Engineer and Businessman."
-          keywords="Software Engineer, React Developer, Businessman, U.S. Army, Portfolio"
-          url="https://ericstevensjr.com"
-        />
-        <div className="App">
-          <Navbar />
-          <main className="pt-24">
-            <div className="container mx-auto px-4 md:px-8">
-              <Routes>
-                <Route path="/" element={
-                  <>
-                    <HeroSection />
-                    <AboutMe />
-                    <Projects />
-                    <Contact />
-                  </>
-                } />
-                <Route path="/blog" element={<Blog />} />
-                <Route path="/affiliations" element={<Affiliations />}  />
-                <Route path="/contact" element={<Contact />} />
-              </Routes>
-            </div>
-          </main>
-          <Footer />
-        </div>
+        <ErrorBoundary>
+          <SEO
+            title="Eric Stevens Jr. | Portfolio"
+            description="Eric Stevens Jr. is a U.S. Army Combat Infantryman turned Software Engineer and Businessman."
+            keywords="Software Engineer, React Developer, Businessman, U.S. Army, Portfolio"
+            url="https://ericstevensjr.com"
+          />
+          <div className="App">
+            <Navbar />
+            <main className="pt-24">
+              <div className="container mx-auto px-4 md:px-8">
+                <Routes>
+                  <Route 
+                    path="/" 
+                    element={
+                      <ErrorBoundary>
+                        <HeroSection />
+                        <AboutMe />
+                        <Projects />
+                        <Contact />
+                      </ErrorBoundary>
+                    } 
+                  />
+                  <Route 
+                    path="/blog" 
+                    element={
+                      <ErrorBoundary>
+                        <SEO
+                          title="Blog | Eric Stevens Jr."
+                          description="Read my latest blog posts on technology, business, and life."
+                          url="https://ericstevensjr.com/blog"
+                        />
+                        <Blog />
+                      </ErrorBoundary>
+                    } 
+                  />
+                  <Route
+                    path="/affiliations"
+                    element={
+                      <ErrorBoundary>
+                        <SEO
+                          title="Affiliations | Eric Stevens Jr."
+                          description="Explore my professional affiliations and collaborations."
+                          url="https://ericstevensjr.com/affiliations"
+                        />
+                        <Affiliations />
+                      </ErrorBoundary>
+                    }
+                  />                  
+                  <Route 
+                    path="/contact" 
+                    element={
+                      <ErrorBoundary>
+                        <Contact />
+                      </ErrorBoundary>
+                    }
+                  />
+                </Routes>
+              </div>
+            </main>
+            <Footer />
+          </div>
+        </ErrorBoundary>
       </Router>
     </ThemeProvider>
   );
