@@ -51,7 +51,7 @@ function Contact() {
             placeholder="Your Name"
             value={formData.name}
             onChange={handleChange}
-            className="w-full mb-4 p-3 border rounded"
+            className="w-full mb-4 p-3 border rounded placeholder-gray-700"
             required
           />
           <input
@@ -60,7 +60,7 @@ function Contact() {
             placeholder="Your Email"
             value={formData.email}
             onChange={handleChange}
-            className="w-full mb-4 p-3 border rounded"
+            className="w-full mb-4 p-3 border rounded placeholder-gray-700"
             required
           />
           <textarea
@@ -68,7 +68,7 @@ function Contact() {
             placeholder="Your Message"
             value={formData.message}
             onChange={handleChange}
-            className="w-full mb-4 p-3 border rounded h-32"
+            className="w-full mb-4 p-3 border rounded placeholder-gray-700 h-32"
             required
           />
           <button
