@@ -11,11 +11,18 @@ import Blog from './components/Blog';
 import Affiliations from './components/Affiliations';
 import './App.css';
 import { ThemeProvider } from "./context/ThemeContext";
+import SEO from "./components/SEO";
 
 function App() {
   return (
     <ThemeProvider>
       <Router>
+        <SEO
+          title="Eric Stevens Jr. | Portfolio"
+          description="Eric Stevens Jr. is a U.S. Army Combat Infantryman turned Software Engineer and Businessman."
+          keywords="Software Engineer, React Developer, Businessman, U.S. Army, Portfolio"
+          url="https://ericstevensjr.com"
+        />
         <div className="App">
           <Navbar />
           <main className="pt-24">
