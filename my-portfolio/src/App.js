@@ -71,6 +71,11 @@ function App() {
                     path="/contact" 
                     element={
                       <ErrorBoundary>
+                        <SEO
+                          title="Contact | Eric Stevens Jr."
+                          description="Get in touch with Eric Stevens Jr."
+                          url="https://ericstevensjr.com/#contact"
+                        />
                         <Contact />
                       </ErrorBoundary>
                     }
