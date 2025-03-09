@@ -7,6 +7,7 @@ const Blog = () => {
       <h1 className="text-4xl font-bold mb-8">Blog</h1>
       {posts.map((post) => (
         <div key={post.id} className="mb-10 border-b pb-6">
+          <img src={post.image} alt={post.title} className="w-full h-48 object-cover rounded-lg mb-4" />
           <h2 className="text-2xl font-bold">{post.title}</h2>
           <p className="text-gray-500 text-sm">{post.date}</p>
           <p className="text-gray-700 dark:text-gray-300">{post.excerpt}</p>
