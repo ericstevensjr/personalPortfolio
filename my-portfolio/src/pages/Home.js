@@ -2,6 +2,7 @@ import HeroSection from '../components/HeroSection';
 import AboutMe from '../components/AboutMe';
 import Projects from '../components/Projects';
 import Contact from '../components/Contact';
+import LatestBlogPost from '../components/LatestBlogPost';
 
 function Home() {
   return (
@@ -9,6 +10,7 @@ function Home() {
       <HeroSection />
       <AboutMe />
       <Projects />
+      <LatestBlogPost />
       <Contact />
     </div>
   );

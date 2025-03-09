@@ -13,6 +13,7 @@ import './App.css';
 import { ThemeProvider } from "./context/ThemeContext";
 import SEO from "./components/SEO";
 import ErrorBoundary from "./components/ErrorBoundary";
+import SinglePost from "./components/SinglePost";
 
 function App() {
   return (
@@ -53,6 +54,14 @@ function App() {
                         <Blog />
                       </ErrorBoundary>
                     } 
+                  />
+                  <Route
+                    path="/blog/:id"
+                    element={
+                      <ErrorBoundary>
+                        <SinglePost />
+                      </ErrorBoundary>
+                    }
                   />
                   <Route
                     path="/affiliations"
