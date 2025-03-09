@@ -12,7 +12,11 @@ const SinglePost = () => {
 
     return (
         <div className="container mx-auto px-4 md:px-8 pt-24">
-            <img src={post.image} alt={post.title} className="w-full h-64 object-cover rounded-lg mb-6" />
+            <img 
+                src={post.image} 
+                alt={post.title} 
+                className="w-128 h-full object-cover rounded-lg mb-6" 
+            />
             <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
             <p className="text-gray-500 text-sm mb-6">{post.date}</p>
             <div dangerouslySetInnerHTML={{ __html: post.content }} className="text-gray-700 dark:text-gray-300"></div>
