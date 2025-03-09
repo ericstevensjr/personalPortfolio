@@ -12,7 +12,9 @@ function Home() {
       <HeroSection />
       <AboutMe />
       <Projects />
-      <LatestBlogPost />
+      <div className="border-4 border-green-500"> {/* ✅ Forces a visible box around LatestBlogPost */}
+        <LatestBlogPost />
+      </div>
       <Contact />
     </div>
   );
