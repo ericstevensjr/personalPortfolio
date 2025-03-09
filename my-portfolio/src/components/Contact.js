@@ -32,8 +32,8 @@ function Contact() {
         email: formData.email,
         message: formData.message,
       };
-      
-      emailjs.send(serviceID, templateID, formData, publicKey)
+
+      emailjs.send(serviceID, templateID, templateParams, publicKey)
         .then(() => {
           setStatus("Message sent successfully!");
           setFormData({ name: "", email: "", message: ""}); // Reset form
