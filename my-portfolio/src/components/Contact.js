@@ -27,6 +27,12 @@ function Contact() {
       const templateID = "template_cark7pc";
       const publicKey = "l0m5mEijS_jNs4l4p";
 
+      const templateParams = {
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+      };
+      
       emailjs.send(serviceID, templateID, formData, publicKey)
         .then(() => {
           setStatus("Message sent successfully!");
