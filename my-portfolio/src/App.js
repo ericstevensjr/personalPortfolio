@@ -9,6 +9,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Blog from './components/Blog';
 import Affiliations from './components/Affiliations';
+import LatestBlogPost from './components/LatestBlogPost';
 import './App.css';
 import { ThemeProvider } from "./context/ThemeContext";
 import SEO from "./components/SEO";
@@ -38,6 +39,7 @@ function App() {
                         <HeroSection />
                         <AboutMe />
                         <Projects />
+                        <LatestBlogPost />
                         <Contact />
                       </ErrorBoundary>
                     } 
