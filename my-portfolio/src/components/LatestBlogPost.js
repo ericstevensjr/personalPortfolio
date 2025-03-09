@@ -2,6 +2,9 @@ import React from "react";
 import posts from "../blog"; // Import all blog posts
 
 function LatestBlogPost() {
+    console.log("LatestBlogPost Component Loaded"); // Debugging message
+    console.log("Blog Posts:", posts); // Debugging message to check if posts exist
+
     if (!posts || posts.length === 0) {
         console.error("No blog posts found.");
         return <p className="text-center text-gray-500">No blog posts available.</p>; // ✅ Prevents crash if no posts

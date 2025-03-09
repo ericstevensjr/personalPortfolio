@@ -9,8 +9,8 @@ function Home() {
     <div className="container mx-auto p-4">
       <HeroSection />
       <AboutMe />
-      <Projects />
       <LatestBlogPost />
+      <Projects />
       <Contact />
     </div>
   );

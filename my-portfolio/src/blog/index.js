@@ -1,7 +1,7 @@
 import ericStevensIntro from "./eric-stevens-jr-introduction";
 
-const posts = [ericStevensIntro]; // Ensure this is an array
+const posts = [ericStevensIntro]; // Ensure this array is not empty
 
-console.log("Loaded blog posts:", posts); // Debugging output
+console.log("Blog index.js Loaded. Posts:", posts); // Debugging output
 
 export default posts;
