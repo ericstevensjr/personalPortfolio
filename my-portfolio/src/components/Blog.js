@@ -10,7 +10,7 @@ const Blog = () => {
           <img 
             src={post.image} 
             alt={post.title} 
-            className="w-[600px] max-w-full h-[400px] max-h-[500px] object-contain rounded-full border-4 border-gray-300 mx-auto mb-4"
+            className="w-[600px] max-w-full h-[400px] max-h-[500px] object-contain rounded-full mx-auto mb-4"
           />
           <h2 className="text-2xl font-bold">{post.title}</h2>
           <p className="text-gray-500 text-sm">{post.date}</p>
