@@ -1,5 +1,7 @@
-import ericstevensIntro from "./eric-stevens-jr-introduction";
+import ericStevensIntro from "./eric-stevens-jr-introduction";
 
-const posts = [ericstevensIntro];
+const posts = [ericStevensIntro]; // Ensure this is an array
+
+console.log("Loaded blog posts:", posts); // Debugging output
 
 export default posts;

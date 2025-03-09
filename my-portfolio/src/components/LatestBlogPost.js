@@ -1,10 +1,13 @@
 import React from "react";
-import posts from "../blog";
+import posts from "../blog"; // Import all blog posts
 
 function LatestBlogPost() {
-    const latestPost = posts[0]; // Get the most recent post 
+    if (!posts || posts.length === 0) {
+        console.error("No blog posts found.");
+        return <p className="text-center text-gray-500">No blog posts available.</p>; // ✅ Prevents crash if no posts
+    }
 
-    if (!latestPost) return null; // Don't display anything if no posts exist
+    const latestPost = posts[0]; // Get the most recent post
 
     return (
         <div className="mt-10 p-6 border rounded-lg bg-gray-100 dark:bg-gray-800">
