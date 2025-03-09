@@ -37,9 +37,9 @@ function App() {
                     element={
                       <ErrorBoundary>
                         <HeroSection />
+                        <LatestBlogPost />
                         <AboutMe />
                         <Projects />
-                        <LatestBlogPost />
                         <Contact />
                       </ErrorBoundary>
                     } 
