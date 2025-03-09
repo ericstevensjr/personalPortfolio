@@ -1,13 +1,13 @@
 import React from "react";
 import posts from "../blog"; // Import all blog posts
 
-function LatestBlogPost() {
-    console.log("LatestBlogPost Component Loaded"); // Debugging message
-    console.log("Blog Posts in Homepage:", posts); // Debugging message to check if posts exist
+console.log("LatestBlogPost Component Loaded"); // Debugging
+console.log("Posts Array in Homepage:", posts); // Debugging
 
+function LatestBlogPost() {
     if (!posts || posts.length === 0) {
         console.error("No blog posts found.");
-        return <p className="text-center text-gray-500">No blog posts available.</p>; // ✅ Prevents crash if no posts
+        return <p className="text-center text-gray-500">No blog posts available.</p>; // Prevents crash if no posts
     }
 
     const latestPost = posts[0]; // Get the most recent post
