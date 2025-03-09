@@ -3,7 +3,7 @@ import posts from "../blog"; // Import all blog posts
 
 function LatestBlogPost() {
     console.log("LatestBlogPost Component Loaded"); // Debugging message
-    console.log("Blog Posts:", posts); // Debugging message to check if posts exist
+    console.log("Blog Posts in Homepage:", posts); // Debugging message to check if posts exist
 
     if (!posts || posts.length === 0) {
         console.error("No blog posts found.");
