@@ -15,7 +15,7 @@ const SinglePost = () => {
             <img 
                 src={post.image} 
                 alt={post.title} 
-                className="w-full h-64 object-cover object-center rounded-lg mb-6" 
+                className="w-84 h-84 object-cover object-center rounded-lg mb-6" 
             />
             <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
             <p className="text-gray-500 text-sm mb-6">{post.date}</p>

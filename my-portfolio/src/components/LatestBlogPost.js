@@ -18,7 +18,7 @@ function LatestBlogPost() {
             <img 
                 src={latestPost.image} 
                 alt={latestPost.title} 
-                className="w-full h-64 object-cover object-center rounded-lg mb-4" 
+                className="w-84 h-84 object-cover object-center rounded-lg mb-4" 
             />
             <h3 className="text-xl">{latestPost.title}</h3>
             <p className="text-gray-500 text-sm">{latestPost.date}</p>
