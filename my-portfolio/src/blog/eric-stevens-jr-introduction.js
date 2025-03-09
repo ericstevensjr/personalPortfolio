@@ -1,9 +1,11 @@
+import introImage from "../assets/introPhoto.jpg"
+
 const post = {
     id: "eric-stevens-jr-introduction",
     title: "Eric Stevens Jr. - Who I Am, What I Stand For, and Where I'm Going",
     date: "March 6, 2025",
     excerpt: "I've faced war, failure, heartbreak, and the edge of my own destruction. I refuse to let life dictate my path. I'm in control now.",
-    image: "/assets/introPhoto.jpg",
+    image: introImage,
     content: `
         <h2>Introduction: The Man Behind the Mission</h2>
         <p>I've faced war, failure, heartbreak, and the edge of my own destruction. I refuse to let life dictate my path. I'm in control now.</p>
