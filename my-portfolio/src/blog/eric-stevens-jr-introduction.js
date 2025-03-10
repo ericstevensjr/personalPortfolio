@@ -40,7 +40,102 @@ const post = {
         <p><strong>I don't seek approval - my values validate me.</strong> If you live by your own code, you'll never need validation from anyone.</p>
         <h2>What I'm Building: My Portfolio of Mastery</h2>
         <h3>The Matanzas Group</h3>
-
+        <p>Matanzas Group isn't just a business - it's the foundation of an empire. Long term, it will serve as a holdings company, 
+            overseeing ventures across multiple industries, from technology to farming.
+        </p>
+        <p>I've seen businesses let greed dictate their every move - integrity was never even a factor. I've been on the receiving end of those deals. 
+            Never again. Not from me. Not from my company.
+        </p>
+        <p>That's why I started the Matanzas Group: to build an empire on my own terms, with my own values, where no one controls my future but me. 
+            My philosophy? <strong>Treat clients right and never let money compromise my values</strong>. My business will operate with the same 
+            integrity that I demand of myself.
+        </p>
+        <h3>Matanzas River Technology</h3>
+        <p>Matanzas River Technology isn't just another bloated tech firm - we build <strong>lean, high-performance solutions</strong> that eliminate 
+            inefficiency and <storng>give business back their time and resources</strong>. Too many businesses waste money on overcomplicated software or 
+            get locked into <strong>predatory tech services</strong> that charge more than they deliver. That is not what will Matanzas River Technology
+            will ever stand for.
+        </p>
+        <p>The first phase of Matanzas River Technology will focus on <strong>custom software solutions, custom automation, data analytics, and AI-driven 
+            efficiency solutions for small and mid-sized businesses</strong>. Our goal is simple: <strong>streamline operations, cut wasted, time, and 
+            give businesses the tools to scale without breaking their budget</strong>. Every project will follow my philosophy - <strong>lean, efficient, and 
+            built for results</strong>. Over time, I'll expand into <strong>cybersecurity and scalable SaaS platforms</strong>, keeping businesses secure
+            and optimized in the digital age.
+        </p>
+        <p>We strip out inefficiencies, automate intelligently, and help businesses scale without waste.</p>
+        <h3>Men's Philosophy & Writing</h3>
+        <p>Modern society <strong>weakens men - mentally, physically, and spiritually</strong>. Masculinity is labeled a threat. Aggression is demonized.
+            Our natural drive is suppressed. I reject that narrative. <strong>Men are built to lead, fight, create, and dominate their challenges.</strong>
+        </p>
+        <p>I don't waste time on empty motivation. I will cover <strong>actionable philosophy, historical masculinity, mental warfare, strategy, and 
+            self-mastery</strong>. I want to help sharpen men into <strong>thinkers, fighters, and leaders</strong>. My goal is to create a source of 
+            knowledge that men can return to for truth, strength, and strategy - without the weak, soft, politically correct filter that poisons most modern self-development 
+            content.
+        </p>
+        <p>Sharpening the mind is step one. Step two? Strengthening the body - because a sharp mind in a weak body is wasted potential.</p>
+        <h3>Martial Arts & Defensive Training</h3>
+        <p>Self-defense is <strong>non-negotiable</strong>. I train in <strong>Jiu-Jitsu, Muay Thai, Boxing, and Judo</strong>
+            because a man must be capable of protecting himself, his family, and those around him. I've seen what happens when a 
+            man can't defend himself. I've seen men freeze, panic, and get taken advantage of, or worse - beaten or killed.
+        </p>
+        <p>In Afghanistan, I saw men freeze in real combat. Their training was enough for drills - but not for war. 
+            I made sure that would never be me. From my first street fight as a kid to getting rocked in the ring, 
+            I learned that pain is the best teacher. Train under stress, or fall apart when it matters. Combat changes 
+            everything.
+        </p>
+        <p>Just as important as hand-to-hand combat is weapons proficiency. A man must master his tools - 
+            <strong>pistol, carbine, rifle, shotgun, bows, and knives</strong> - if you don't train with them, you're 
+            unprepared for the modern world. Violence and evil exist. Train daily, or be at the mercy of those who do.
+        </p>
+        <h3>Polyglot</h3>
+        <p>Language expands your world. I am actively learning <strong>Spanish and Russian</strong>, which will be followed 
+            by <strong>German and French</strong>. Americans are too comfortable being monolingual. Learning a new language 
+            forces growth, opens doors, and gives you access to knowledge you wouldn't otherwise have the opportunity to 
+            even know about. I plan on writing all my blog posts in other languages I know as I get better in my fluency.
+        </p>
+        <p>Language mastery isn't just about speaking - it's about thinking differently. Spanish connects me to millions of 
+            people, while Russian gives me insight into a powerful and complex culture that has been demonized by 
+            mainstream society lately. Every language I learn is another tool for understanding in a global world.
+        </p>
+        <h3>STEAM: Science, Technology, Engineering, Art, Mathematics</h3>
+        <p>Mastering STEAM fields isn't just about career success - it's about control. Those who understand science, 
+            technology, and engineering <strong>create the world</strong>; those who don't are ruled by it. 
+            Mathematics is the foundation of logic, and logic is the foundation of power. Art is what makes us human - 
+            it refines our ability to create, think, and express truth. 
+        </p>
+        <p>I'll use STEAM to build <strong>lean, high-performance solutions that make businesses more efficient</strong>. 
+            But beyond business, mastering STEAM allows me to engineer my own <strong>solutions, weapons, tools, and 
+            systems</strong>, rather than rely on someone else. In survival, engineering and mathematics separate those who 
+            can <strong>build, innovate, and adapt</strong> from those who perish. Mastery of STEAM isn't an option - it's 
+            a necessity.
+        </p>
+        <h3>Survival and Outdoorsmanship</h3>
+        <p>Could you survive if society collapsed tomorrow? Can you <strong>hunt, fish, trap, forage, build shelter, craft 
+            tools and weapons, or start a fire without modern tools?</strong> Could you track an animal for miles without 
+            GPS? Would you know what to eat if stranded in the wild? Could you find water in a desert? If not, you wouldn't
+            last and most can't. That's the hard truth. I refuse to be one of them. Wilderness mastery is a dying skillset 
+            - but I intend to help keep it alive.
+        </p>
+        <p>I've seen men who didn’t know how to build a fire or navigate the woods. I've been in situations where modern 
+            comforts were gone - where the only thing keeping me alive was my ability to think and adapt. If you can't 
+            survive without a phone, a grocery store, or an easy way out, then you're at the mercy of the world and nature.
+        </p>
+        <h2>The Goals That Define Me</h2>
+        <p>At the core of everything I do is a singular mission: <strong>To use my knowledge, skills, and philosophy 
+            to create value for myself, my family, my friends, my clients, and those who align with me.</strong> 
+            I want to help others accomplish their goals and <strong>thrive in a world designed to hold them back.</strong>
+        </p>
+        <p>Find your goals and <strong>attack them relentlessly.</strong></p>
+        <h2>The Man I Am Becoming</h2>
+        <p>I don’t wait for a change - I make it happen. Every day is a step closer to becoming the man I envision.</p>
+        <p>Some will <strong>watch</strong>, some will <strong>doubt</strong>, some will <strong>hate</strong>, and some 
+            will <strong>stand in my way</strong>. It changes nothing. None will stop me.
+        </p>
+        <p><strong>The mission remains. The mastery continues. The legacy builds.</strong></p>
+        <p><strong>Keep up. Or be left behind.</strong></p>
+        <p><strong>If my vision resonates with you, let's build something. Whether in business, philosophy, or mastery, I 
+            work with those who move with purpose. Reach out, and let's make an impact.</strong>
+        </p>
     `,
 };
 
