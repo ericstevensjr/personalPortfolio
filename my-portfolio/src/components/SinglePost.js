@@ -16,7 +16,7 @@ const SinglePost = () => {
         .replace(/<h1>/g, '<h1 class="blog-heading">')
         .replace(/<h2>/g, '<h2 class="blog-subheading">')
         .replace(/<h3>/g, '<h3 class="blog-subsubheading">')
-        .replace(/<p>/g, '<p class="blog-paragraph">')
+        .replace(/<p>/g, '<p class="blog-paragraph">');
 
 
     return (
