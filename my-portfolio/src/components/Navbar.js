@@ -75,6 +75,10 @@ function Navbar() {
               </li>
             ))}
           </ul>
+
+          <div className="mt-8 flex justify-center">
+            <ThemeToggle />
+          </div>
         </div>
 
         {/* Navigation Links for Desktop */}

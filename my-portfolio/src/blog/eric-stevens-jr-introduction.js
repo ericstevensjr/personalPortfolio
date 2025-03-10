@@ -21,6 +21,8 @@ const post = {
             but I believe that anyone can change the moment they decide to, with the discipline to follow through. 
         </p>
         <br>
+        <br>
+        <br>
         <h2>My Philosophy: How I Live and Why It Works</h2>
         <br>
         <br>
