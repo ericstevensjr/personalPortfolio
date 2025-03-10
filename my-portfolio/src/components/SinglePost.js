@@ -1,6 +1,7 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import posts from "../blog";
+import "../styles/blog.css";
 
 const SinglePost = () => {
     const { id } = useParams(); // Get the post ID from the URL
