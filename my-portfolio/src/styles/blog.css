@@ -1,0 +1,24 @@
+/* Make blog post headings larger */
+.blog-content h1 {
+    font-size: 3rem; /* Adjust as needed */
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .blog-content h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 0.75rem;
+  }
+  
+  .blog-content h3 {
+    font-size: 1.75rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .blog-content p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
