@@ -28,7 +28,7 @@ const SinglePost = () => {
             />
             <h1 className="text-4xl font-bold mb-4">{post.title}</h1>
             <p className="text-gray-500 text-sm mb-6">{post.date}</p>
-            <div dangerouslySetInnerHTML={{ __html: post.content }} className="text-gray-700 dark:text-gray-300"></div>
+            <div dangerouslySetInnerHTML={{ __html: formattedContent }} className="text-gray-700 dark:text-gray-300"></div>
         </div>
     );
 };
