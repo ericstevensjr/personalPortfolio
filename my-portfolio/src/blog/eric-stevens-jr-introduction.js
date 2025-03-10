@@ -49,6 +49,8 @@ const post = {
         <br>
         <p><strong>I don't seek approval - my values validate me.</strong> If you live by your own code, you'll never need validation from anyone.</p>
         <br>
+        <br>
+        <br>
         <h2>What I'm Building: My Portfolio of Mastery</h2>
         <br>
         <br>
@@ -158,6 +160,8 @@ const post = {
             survive without a phone, a grocery store, or an easy way out, then you're at the mercy of the world and nature.
         </p>
         <br>
+        <br>
+        <br>
         <h2>The Goals That Define Me</h2>
         <br>
         <br>
@@ -167,6 +171,8 @@ const post = {
         </p>
         <br>
         <p>Find your goals and <strong>attack them relentlessly.</strong></p>
+        <br>
+        <br>
         <br>
         <h2>The Man I Am Becoming</h2>
         <br>
