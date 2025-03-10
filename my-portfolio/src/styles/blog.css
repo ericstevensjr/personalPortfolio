@@ -1,25 +1,23 @@
-/* Make blog post headings larger */
-.h1 {
-    font-size: 3rem; /* Adjust as needed */
+/* Automatically style blog post headings */
+.blog-heading {
+    font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
-    color: red;
   }
   
-  .h2 {
+  .blog-subheading {
     font-size: 2rem;
     font-weight: bold;
     margin-bottom: 0.75rem;
-    color: green;
   }
   
-  .h3 {
+  .blog-subsubheading {
     font-size: 1.75rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
   }
   
-  .p {
+  .blog-paragraph {
     font-size: 1.2rem;
     line-height: 1.6;
   }

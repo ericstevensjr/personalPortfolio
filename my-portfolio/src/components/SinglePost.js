@@ -11,6 +11,14 @@ const SinglePost = () => {
         return <h2 className="text-center text-xl mt-10">Post not found.</h2>;
     }
 
+    // Automatically inject class names into blog content
+    const formattedContent = post.content
+        .replace(/<h1>/g, '<h1 class="blog-heading">')
+        .replace(/<h2>/g, '<h2 class="blog-subheading">')
+        .replace(/<h3>/g, '<h3 class="blog-subsubheading">')
+        .replace(/<p>/g, '<p class="blog-paragraph">')
+
+
     return (
         <div className="container mx-auto px-4 md:px-8 pt-24">
             <img 
