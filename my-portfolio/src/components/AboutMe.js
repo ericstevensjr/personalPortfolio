@@ -6,19 +6,32 @@ function AboutMe() {
       </h2>
       <div className="flex flex-col items-center">
         <p className="text-center text-lg leading-relaxed text-gray-700 dark:text-gray-300">
-          I’m a Florida native with deep roots in St. Augustine, where my family has called home for over 300 years and where I call home to this day. Raised with blue-collar values of hard work and resilience, I carried those principles with me through my service and early life as an Infantryman in the U.S. Army in which I had multiple deployments to Afghanistan and Eastern Europe. My time in the military shaped my approach to life and business, driving me to constantly seek new challenges and overcome any adversity I can with a smile on my face.
+          Born and raised in St. Augustine, Florida, I come from a long line of men who built their lives with their hands and their minds. My family has 
+          called this place home for over 300 years, and I carry that legacy forward with the same grit, determination, and blue-collar work ethic I was 
+          raised with. 
         </p>
         <p className="text-center text-lg leading-relaxed text-gray-700 dark:text-gray-300 mt-4">
-          After completing my military service, I transitioned into the world of technology, earning my Bachelor of Science in Computer Science from the University of North Florida. Since then, I’ve embraced life as a serial entrepreneur, diving into various industries where I've studied, developed software, and crafted solutions. Whether in tech, sports, fishing, or dog training, I apply the same determination and creativity to everything I do.
+          I served as an Infantryman in the U.S. Army, deploying to Afghanistan and working alongside our European allies. Those years shaped me. 
+          They taught me that comfort is the enemy of growth and that discipline is the key to survival—not just in combat, but in life. I learned to 
+          think under pressure, act without hesitation, and never back down from adversity.
         </p>
         <p className="text-center text-lg leading-relaxed text-gray-700 dark:text-gray-300 mt-4">
-          Beyond business, I’m deeply involved in my community. I coach youth sports, stay active in the outdoors, and maintain a love for history, art, and fitness. I also enjoy life’s competitive edge through sports betting and investing, always eager to challenge myself both mentally and physically in every area of life.
+          After the military, I transitioned into the world of <strong>technology and business</strong>, earning my Bachelor of Science in Computer Science. 
+          I don’t just work in tech—I build. I analyze inefficiencies, develop streamlined solutions, and execute without excuse. Whether in software 
+          development, automation, or AI-driven systems, my approach remains the same: lean, efficient, and built for results. 
         </p>
         <p className="text-center text-lg leading-relaxed text-gray-700 dark:text-gray-300 mt-4">
-          I’m passionate about advocating for children’s welfare and rights, environmental sustainability, veterans' welfare and rights, gun rights, and equality for all Americans. These causes are close to my heart and influence the work I do and the way I live my life.
+          Beyond business, I believe in <strong>self-mastery</strong>. I train in <strong>martial arts and defensive tactics</strong>, because a man should
+           be capable. I study <strong>history, philosophy, and strategy</strong>, because a man should be sharp. I hunt, fish, and explore the outdoors, 
+           because a man should know how to survive. Everything I do is driven by one mission: to build a life of absolute strength, control, and purpose.
         </p>
         <p className="text-center text-lg leading-relaxed text-gray-700 dark:text-gray-300 mt-4">
-          Explore my portfolio to see the projects and ventures I’m working on, or dive into my blog for my thoughts on business, life, and everything in between.
+          My philosophy is simple: <strong>ownership over everything</strong>. No excuses. No waiting for opportunities—only taking them. 
+          <strong>Adversity is fuel.Discipline is freedom. Execution beats perfection.</strong> I don’t chase approval, I chase results.
+        </p>
+        <p className="text-center text-lg leading-relaxed text-gray-700 dark:text-gray-300 mt-4">
+          If that resonates with you, explore my portfolio, check out my blog, and connect. Whether it’s business, philosophy, or building something 
+          bigger than yourself, I want to work with you and build something together. Please, get in contact at anytime for any reason.
         </p>
       </div>
     </section>
